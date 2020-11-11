@@ -106,15 +106,15 @@ namespace ООЗГТ_контрактники
 				}
 			else		//исключил 5 из генерации 3 и 2
 			{
-				for (int i = 0; i < values.Length; i++)
+				for (int i = 1; i < values.Length; i++)
 				{
-					for (int j = 0; j < values.Length; j++)
+					for (int j = 1; j < values.Length; j++)
 					{
-						for (int k = 0; k < values.Length; k++)
+						for (int k = 1; k < values.Length; k++)
 						{
-							for (int l = 0; l < values.Length; l++)
+							for (int l = 1; l < values.Length; l++)
 							{
-								for (int m = 0; m < values.Length; m++)
+								for (int m = 1; m < values.Length; m++)
 								{
 									double average = (values[i] + values[j] + values[k] + values[l] + values[m]) / 5;
 									double averageMath = Math.Round((values[i] + values[j] + values[k] + values[l] + values[m]) / 5);
